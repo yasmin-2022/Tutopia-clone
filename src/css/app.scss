@@ -1,0 +1,35 @@
+// app global css in SCSS form
+
+a {
+  text-decoration: none;
+}
+.btn {
+  width: 400px;
+}
+.img {
+  width: 80px;
+  margin-top: 70px;
+}
+.icon {
+  font-size: 25px;
+}
+.board {
+  border-top-left-radius: 32px;
+  border-top-right-radius: 32px;
+  border-top: 2px solid transparent;
+  box-shadow: 0 -10px 20px -5px rgba(115, 115, 115, 0.75);
+}
+.underline {
+  width: 100px;
+  height: 12px;
+  background: #808080;
+  border-radius: 12px;
+}
+.class {
+  position: relative;
+  top: -200px;
+  border-top-right-radius: 32px;
+  border-top-left-radius: 32px;
+  border-top: 2px solid transparent;
+  box-shadow: 0 -10px 20px -5px rgba(115, 115, 115, 0.75);
+}
