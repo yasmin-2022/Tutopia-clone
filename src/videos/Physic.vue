@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-grey-2">
+  <div class="bg-grey-2 app">
     <div class="flex items-center">
       <router-link to="/">
         <q-icon name="arrow_back" size="22px" class="q-mt-md q-ml-md" />

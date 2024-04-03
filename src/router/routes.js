@@ -30,6 +30,42 @@ const routes = [
     ],
   },
   {
+    path: "/chone",
+    component: () => import("../videos/english/BooksOfNature.vue"),
+    children: [
+      {
+        path: "",
+        component: () => import("../videos/english/video.vue"),
+      },
+      {
+        path: "prac",
+        component: () => import("../videos/english/Practice.vue"),
+      },
+      {
+        path: "notes",
+        component: () => import("../videos/english/Notes.vue"),
+      },
+    ],
+  },
+  {
+    path: "/riddle",
+    component: () => import("../videos/riddle/THERIddle.vue"),
+    children: [
+      {
+        path: "",
+        component: () => import("../videos/english/video.vue"),
+      },
+      {
+        path: "prac",
+        component: () => import("../videos/english/Practice.vue"),
+      },
+      {
+        path: "notes",
+        component: () => import("../videos/english/Notes.vue"),
+      },
+    ],
+  },
+  {
     path: "/videosahayika",
     component: () => import("../videos/VideoSahayika.vue"),
   },

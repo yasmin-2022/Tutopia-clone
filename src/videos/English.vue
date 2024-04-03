@@ -27,7 +27,9 @@
           </span>
         </div>
       </div>
-      <q-icon name="chevron_right" size="26px" color="blue-9" />
+      <router-link :to="topic.link">
+        <q-icon name="chevron_right" size="26px" color="blue-9" />
+      </router-link>
     </div>
   </div>
 </template>
@@ -41,58 +43,84 @@ export default {
       {
         id: "01",
         ch: "BOOK OF NATURE",
+        link: "/chone",
       },
       {
         id: "02",
         ch: "THE RIDDLE",
+        link: "/riddle",
       },
       {
         id: "03",
         ch: "WE ARE SEVEN",
+        // path: "/chone",
+        link: "/riddle",
       },
       {
         id: "04",
         ch: "THE BEAUTY AND THE BEAST",
+        // path: "/chone",
+        link: "/riddle",
       },
       {
         id: "05",
         ch: "UNCLE PODGER HANGS A PICTURE",
+        // path: "/chone",
+        link: "/riddle",
       },
       {
         id: "06",
         ch: "THE VAGABOND",
+        // path: "/chone",
+        link: "/riddle",
       },
       {
         id: "07",
         ch: "MOWGLY AMONG THE WOLVES",
+        // path: "/chone",
+        link: "/riddle",
       },
       {
         id: "08",
         ch: "THE STORY OF PROSERPINE",
+        // path: "/chone",
+        link: "/riddle",
       },
       {
         id: "09",
         ch: "J.C BOSE",
+        // path: "/chone",
+        link: "/riddle",
       },
       {
         id: "10",
         ch: "THE ECHOING GREEN",
+        // path: "/chone",
+        link: "/riddle",
       },
       {
         id: "11",
         ch: "THE AXE",
+        // path: "/chone",
+        link: "/riddle",
       },
       {
         id: "12",
         ch: "MY DAIRY",
+        // path: "/chone",
+        link: "/riddle",
       },
       {
         id: "13",
         ch: "GHOST ON THE VERANDAH",
+        // path: "/chone",
+        link: "/riddle",
       },
       {
         id: "14",
         ch: "LAST MINUTE PREPRATION",
+        // path: "/chone",
+        link: "/riddle",
       },
     ]);
     return {
