@@ -9,9 +9,11 @@
       <router-link :to="teach.path">
         <div class="List flex items-center text-black">
           <div class="teacher">
-            <q-img :src="teach.img" alt="" class="img" />
+            <q-img :src="teach.img" alt="" class="imgTut" />
           </div>
-          <div class="text-h6 text-weight-medium q-ml-lg">{{ teach.name }}</div>
+          <div class="text-subtitle1 text-weight-medium q-ml-lg">
+            {{ teach.name }}
+          </div>
         </div>
       </router-link>
     </div>
@@ -86,26 +88,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.List {
-  height: 80px;
-  border: 2px solid black;
-  border-radius: 7px;
-}
-.List:nth-child(1) {
-  background: #f4ec95;
-}
-.List:nth-child(3) {
-  background: #d4f1f4;
-}
-.img {
-  width: 80px;
-  position: relative;
-  top: -70px;
-}
-.teacher {
-  width: 90px;
-  height: 78px;
-  background: white;
-}
-</style>
+<style lang="scss" scoped></style>

@@ -5,7 +5,7 @@
         <q-icon name="arrow_back" size="22px" class="q-mt-md q-ml-md" />
       </router-link>
       <div class="bg-blue-3 q-mt-md q-pa-sm q-ml-md rounded-borders">
-        <q-img src="../../public/hindi.png" alt="english" class="icon" />
+        <q-img src="../../public/hindi.png" alt="english" class="Topicicon" />
       </div>
       <div class="q-mt-sm q-ml-md">
         <div class="text-h5">Hindi</div>
@@ -22,7 +22,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.icon {
+.Topicicon {
   width: 36px;
   padding: 12px;
 }

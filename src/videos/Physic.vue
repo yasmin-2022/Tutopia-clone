@@ -5,7 +5,7 @@
         <q-icon name="arrow_back" size="22px" class="q-mt-md q-ml-md" />
       </router-link>
       <div class="bg-blue-3 q-mt-md q-pa-sm q-ml-md rounded-borders">
-        <q-img src="../../public/physic.png " alt="english" class="icon" />
+        <q-img src="../../public/physic.png " alt="english" class="Topicicon" />
       </div>
       <div class="q-mt-sm q-ml-md">
         <div class="text-h5">pHYSIC</div>
@@ -39,7 +39,7 @@ export default {
     const topics = ref([
       {
         id: "01",
-        ch: "HUMAN EYE AND COLOURFUL WORLD PRQS",
+        ch: "HUMAN EYE AND COLOURFUL WORLD ",
       },
       {
         id: "02",
@@ -47,11 +47,11 @@ export default {
       },
       {
         id: "03",
-        ch: "MAGNETIC EFFECTS OF ELECTRIC WITH PYQS",
+        ch: "MAGNETIC EFFECTS OF ELECTRIC ",
       },
       {
         id: "04",
-        ch: "LIGHT:REFLEXTION AND REFRACTION PYQS",
+        ch: "LIGHT:REFLEXTION AND REFRACTION",
       },
     ]);
     return {
@@ -62,7 +62,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.icon {
+.Topicicon {
   width: 36px;
   padding: 12px;
 }

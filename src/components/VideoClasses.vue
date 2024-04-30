@@ -7,7 +7,7 @@
         class="tution q-my-md flex column items-center justify-center"
       >
         <router-link :to="video.path">
-          <div class="icon">
+          <div class="icon1">
             <q-img :src="video.url" class="img" alt="video" />
           </div>
           <div class="q-mt-md text-black text-center">
@@ -72,21 +72,21 @@ export default {
 
 <style lang="scss" scoped>
 .tution {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 180px;
   border: 2px solid transparent;
   border-radius: 22px;
 }
-.icon {
+.icon1 {
   width: 124px;
   height: 124px;
   border-radius: 50%;
 }
-.icon:nth-child(1),
-.icon:nth-child(3) {
+.icon1:nth-child(1),
+.icon1:nth-child(3) {
   background: #fba834;
 }
-.icon:nth-child(2) {
+.icon1:nth-child(2) {
   background: #387adf;
 }
 
@@ -96,7 +96,7 @@ export default {
   top: -35px;
   left: 27px;
 }
-.icon:nth-child(2) {
+.icon1:nth-child(2) {
   background: #000;
 }
 
