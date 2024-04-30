@@ -71,43 +71,43 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.tution {
-  width: 150px;
-  height: 180px;
-  border: 2px solid transparent;
-  border-radius: 22px;
-}
-.icon1 {
-  width: 124px;
-  height: 124px;
-  border-radius: 50%;
-}
-.icon1:nth-child(1),
-.icon1:nth-child(3) {
-  background: #fba834;
-}
-.icon1:nth-child(2) {
-  background: #387adf;
-}
+// .tution {
+//   width: 150px;
+//   height: 180px;
+//   border: 2px solid transparent;
+//   border-radius: 22px;
+// }
+// .icon1 {
+//   width: 124px;
+//   height: 124px;
+//   border-radius: 50%;
+// }
+// .icon1:nth-child(1),
+// .icon1:nth-child(3) {
+//   background: #fba834;
+// }
+// .icon1:nth-child(2) {
+//   background: #387adf;
+// }
 
-.img {
-  width: 62px;
-  position: relative;
-  top: -35px;
-  left: 27px;
-}
-.icon1:nth-child(2) {
-  background: #000;
-}
+// .img {
+//   width: 62px;
+//   position: relative;
+//   top: -35px;
+//   left: 27px;
+// }
+// .icon1:nth-child(2) {
+//   background: #000;
+// }
 
-.tution:nth-child(2),
-.tution:nth-child(3),
-.tution:nth-child(6) {
-  box-shadow: 0 12px 2px #fba834, 0 1px 2px #fba834;
-}
-.tution:nth-child(1),
-.tution:nth-child(4),
-.tution:nth-child(5) {
-  box-shadow: 0 15px 2px #387adf, 0 1px 2px #387adf;
-}
+// .tution:nth-child(2),
+// .tution:nth-child(3),
+// .tution:nth-child(6) {
+//   box-shadow: 0 12px 2px #fba834, 0 1px 2px #fba834;
+// }
+// .tution:nth-child(1),
+// .tution:nth-child(4),
+// .tution:nth-child(5) {
+//   box-shadow: 0 15px 2px #387adf, 0 1px 2px #387adf;
+// }
 </style>

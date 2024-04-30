@@ -25,7 +25,9 @@
           </span>
         </div>
       </div>
-      <q-icon name="chevron_right" size="26px" color="blue-9" />
+      <router-link to="hisone">
+        <q-icon name="chevron_right" size="26px" color="blue-9" />
+      </router-link>
     </div>
   </div>
 </template>
@@ -56,13 +58,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-// .Topicicon {
-//   width: 36px;
-//   padding: 12px;
-// }
-// .topic {
-//   height: 70px;
-//   box-shadow: 1px 1px 2px grey, -1px -1px 2px grey;
-// }
-</style>
+<style lang="scss" scoped></style>

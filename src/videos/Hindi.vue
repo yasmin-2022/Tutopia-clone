@@ -21,13 +21,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-.Topicicon {
-  width: 36px;
-  padding: 12px;
-}
-.topic {
-  height: 70px;
-  box-shadow: 1px 1px 2px grey, -1px -1px 2px grey;
-}
-</style>
+<style lang="scss" scoped></style>

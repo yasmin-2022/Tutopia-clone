@@ -73,3 +73,37 @@ export const TheRiddle = [
     time: "9.50 mins",
   },
 ];
+export const RealNumber = [
+  {
+    id: 2,
+    title: "Real Number",
+    link: "https://www.youtube.com/embed/VEY08fMYmEU?si=Ufg1slZ9M34VSnLx",
+
+    time: "11.40 mins",
+  },
+];
+export const RNIE = [
+  {
+    id: 2,
+    title: "Real Number",
+    link: "https://www.youtube.com/embed/GDlWkr6sAT4?si=zNxcadQFkRLV2SuW",
+    time: "11.40 mins",
+  },
+];
+export const PhyOne = [
+  {
+    id: 2,
+    title: "",
+    link: "https://www.youtube.com/embed/DnPXqHu3lCc?si=v7IfCZ8SlLiFjjk-",
+    time: "11.40 mins",
+  },
+];
+
+export const GeogOne = [
+  {
+    id: 2,
+    title: "",
+    link: "https://www.youtube.com/embed/WhkUokWztRM?si=m0CDN39W7N9D3eIc",
+    time: "11.40 mins",
+  },
+];

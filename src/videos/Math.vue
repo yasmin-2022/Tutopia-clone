@@ -25,7 +25,9 @@
           </span>
         </div>
       </div>
-      <q-icon name="chevron_right" size="26px" color="blue-9" />
+      <router-link to="/mathone">
+        <q-icon name="chevron_right" size="26px" color="blue-9" />
+      </router-link>
     </div>
   </div>
 </template>

@@ -48,6 +48,78 @@ const routes = [
     ],
   },
   {
+    path: "/hisone",
+    component: () => import("../videos/history/ChapterOne.vue"),
+    children: [
+      {
+        path: "",
+        component: () => import("../videos/history/video.vue"),
+      },
+      {
+        path: "prac",
+        component: () => import("../videos/history/Practice.vue"),
+      },
+      {
+        path: "notes",
+        component: () => import("../videos/history/Notes.vue"),
+      },
+    ],
+  },
+  {
+    path: "/mathone",
+    component: () => import("../videos/math/RealNumber.vue"),
+    children: [
+      {
+        path: "",
+        component: () => import("../videos/math/video.vue"),
+      },
+      {
+        path: "prac",
+        component: () => import("../videos/math/Practice.vue"),
+      },
+      {
+        path: "notes",
+        component: () => import("../videos/math/Notes.vue"),
+      },
+    ],
+  },
+  {
+    path: "/phyone",
+    component: () => import("../videos/physic/ChapterOne.vue"),
+    children: [
+      {
+        path: "",
+        component: () => import("../videos/physic/video.vue"),
+      },
+      {
+        path: "prac",
+        component: () => import("../videos/physic/Practice.vue"),
+      },
+      {
+        path: "notes",
+        component: () => import("../videos/physic/Notes.vue"),
+      },
+    ],
+  },
+  {
+    path: "/geogone",
+    component: () => import("../videos/geography/ChapterOne.vue"),
+    children: [
+      {
+        path: "",
+        component: () => import("../videos/geography/video.vue"),
+      },
+      {
+        path: "prac",
+        component: () => import("../videos/geography/Practice.vue"),
+      },
+      {
+        path: "notes",
+        component: () => import("../videos/geography/Notes.vue"),
+      },
+    ],
+  },
+  {
     path: "/riddle",
     component: () => import("../videos/riddle/THERIddle.vue"),
     children: [
