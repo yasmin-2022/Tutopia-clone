@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div v-for="Real in ChapterOne" :key="Real" class="q-my-lg">
+    <div v-for="chone in ChapterOne" :key="chone" class="q-my-lg">
       <div class="bg-white q-mx-lg video">
-        <q-video :ratio="16 / 9" :src="Real.link" />
+        <q-video :ratio="16 / 9" :src="chone.link" />
         <div class="text-left q-mt-md q-ml-md text-subtitle1">
-          {{ Real.title }}
+          {{ chone.title }}
         </div>
         <div class="text-left q-ml-lg text-grey-14">
-          {{ Real.time }}
+          {{ chone.time }}
         </div>
       </div>
     </div>
@@ -16,11 +16,11 @@
 
 <script>
 import { toRef } from "vue";
-import { RealNumber } from "../../content/data";
+import { PhyOne } from "../../content/data";
 export default {
   name: "VideoBON",
   setup() {
-    const ChapterOne = toRef(RealNumber);
+    const ChapterOne = toRef(PhyOne);
     // const BooksOfNature = ref([
     //   {
     //     id: 1,

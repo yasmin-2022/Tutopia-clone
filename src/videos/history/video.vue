@@ -1,13 +1,13 @@
 <template>
   <div>
-    <div v-for="phy in phys" :key="phy" class="q-my-lg">
+    <div v-for="his in history" :key="his" class="q-my-lg">
       <div class="bg-white q-mx-lg video">
-        <q-video :ratio="16 / 9" :src="Europe.link" />
+        <q-video :ratio="16 / 9" :src="his.link" />
         <div class="text-left q-mt-md q-ml-md text-subtitle1">
-          {{ phy.title }}
+          {{ his.title }}
         </div>
         <div class="text-left q-ml-lg text-grey-14">
-          {{ phy.time }}
+          {{ his.time }}
         </div>
       </div>
     </div>
@@ -16,11 +16,11 @@
 
 <script>
 import { toRef } from "vue";
-import { PhyOne } from "../../content/data";
+import { RNIE } from "../../content/data";
 export default {
   name: "VideoBON",
   setup() {
-    const Phys = toRef(PhyOne);
+    const history = toRef(RNIE);
     // const BooksOfNature = ref([
     //   {
     //     id: 1,
@@ -61,7 +61,7 @@ export default {
     // ]);
     return {
       // BsooksOfNature,
-      Phys,
+      history,
     };
   },
 };

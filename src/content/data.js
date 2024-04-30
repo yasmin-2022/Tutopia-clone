@@ -84,15 +84,15 @@ export const RealNumber = [
 ];
 export const RNIE = [
   {
-    id: 2,
-    title: "Real Number",
+    id: 1,
+    title: "The Rise Of Nationalism In Europe",
     link: "https://www.youtube.com/embed/GDlWkr6sAT4?si=zNxcadQFkRLV2SuW",
     time: "11.40 mins",
   },
 ];
 export const PhyOne = [
   {
-    id: 2,
+    id: 1,
     title: "",
     link: "https://www.youtube.com/embed/DnPXqHu3lCc?si=v7IfCZ8SlLiFjjk-",
     time: "11.40 mins",
@@ -101,7 +101,7 @@ export const PhyOne = [
 
 export const GeogOne = [
   {
-    id: 2,
+    id: 1,
     title: "",
     link: "https://www.youtube.com/embed/WhkUokWztRM?si=m0CDN39W7N9D3eIc",
     time: "11.40 mins",
