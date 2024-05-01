@@ -29,37 +29,38 @@ export default {
       {
         id: 1,
         name: "Hindi",
-        url: "../../public/hindi.png",
+        // url: "../../public/hindi.png",
+        url: "/hindi.png",
         path: "/hindi",
       },
       {
         id: 2,
         name: "English",
-        url: "../../public/english.png",
+        url: "/english.png",
         path: "/eng",
       },
       {
         id: 3,
         name: "Math",
-        url: "../../public/math.png",
+        url: "/math.png",
         path: "/math",
       },
       {
         id: 4,
         name: "Physic",
-        url: "../../public/physic.png",
+        url: "/physic.png",
         path: "/phy",
       },
       {
         id: 5,
         name: "History",
-        url: "../../public/history.png",
+        url: "/history.png",
         path: "/his",
       },
       {
         id: 6,
         name: "Geography",
-        url: "../../public/geog.png",
+        url: "/geog.png",
         path: "/geog",
       },
     ]);
@@ -70,44 +71,4 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
-// .tution {
-//   width: 150px;
-//   height: 180px;
-//   border: 2px solid transparent;
-//   border-radius: 22px;
-// }
-// .icon1 {
-//   width: 124px;
-//   height: 124px;
-//   border-radius: 50%;
-// }
-// .icon1:nth-child(1),
-// .icon1:nth-child(3) {
-//   background: #fba834;
-// }
-// .icon1:nth-child(2) {
-//   background: #387adf;
-// }
-
-// .img {
-//   width: 62px;
-//   position: relative;
-//   top: -35px;
-//   left: 27px;
-// }
-// .icon1:nth-child(2) {
-//   background: #000;
-// }
-
-// .tution:nth-child(2),
-// .tution:nth-child(3),
-// .tution:nth-child(6) {
-//   box-shadow: 0 12px 2px #fba834, 0 1px 2px #fba834;
-// }
-// .tution:nth-child(1),
-// .tution:nth-child(4),
-// .tution:nth-child(5) {
-//   box-shadow: 0 15px 2px #387adf, 0 1px 2px #387adf;
-// }
-</style>
+<style lang="scss" scoped></style>
